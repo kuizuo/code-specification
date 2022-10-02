@@ -1,0 +1,20 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: all 1s;
+}
+
+.box > span {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  transition: all 1s;
+}
+
+.box:hover {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
